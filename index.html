@@ -207,7 +207,7 @@
             </div>
 
             <div class="server-ip" onclick="copyIP()" title="Click to Copy">
-                <span>play.trinitysociety.net:7777</span>
+                <span>103.190.0.21:5016</span>
                 <i class="fas fa-copy" id="copyIcon"></i>
             </div>
             <p id="copyText" style="color:var(--emerald); font-size:0.95rem; margin-top:10px; opacity:0; transition:0.3s; font-weight:bold;">IP Copied to Clipboard!</p>
@@ -486,7 +486,7 @@
 
         // --- Copy IP ---
         function copyIP() {
-            navigator.clipboard.writeText("play.trinitysociety.net:7777");
+            navigator.clipboard.writeText("103.190.0.21:5016");
             const copyText = document.getElementById("copyText");
             const icon = document.getElementById("copyIcon");
             icon.className = "fas fa-check"; icon.style.color = "var(--emerald)";
